@@ -403,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9089865444784451095, guid: 52119ad596fd6a24eb786f545f4dc4a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.74
+      value: -4.12
       objectReference: {fileID: 0}
     - target: {fileID: 9089865444784451095, guid: 52119ad596fd6a24eb786f545f4dc4a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bd6e712c8f1d3429a4c24ebed6376c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: A09_Zone0
+  SceneName: HW_09_Zone0
 --- !u!1001 &1508107621
 PrefabInstance:
   m_ObjectHideFlags: 0
