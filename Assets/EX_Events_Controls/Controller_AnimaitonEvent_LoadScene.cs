@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class Controller_AnimaitonEvent_LoadScene : MonoBehaviour
 {
     //public string SceneName;
+    [SerializeField] private string targetSceneName;
 
-
-    public void LoadScene(string s)
+    public void LoadScene()
     {
-        SceneManager.LoadScene(s);
+        SceneManager.LoadScene(targetSceneName);
     }
 }
