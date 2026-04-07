@@ -213,7 +213,7 @@ AnimationClip:
   m_Events:
   - time: 0.016666668
     functionName: LoadScene
-    data: D05_Zone3
+    data: HW_09_Zone1
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
