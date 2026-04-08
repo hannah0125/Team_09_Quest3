@@ -56,7 +56,7 @@ public class EX_OVRInput_Grab : MonoBehaviour
             if (rb == null)
                 continue;
 
-            float d = Vector3.Distance(LeftHand.position, rb.position);
+            float d = Vector3.Distance(LeftHand.position, c.ClosestPoint(LeftHand.position));
 
             if (d < minDist)
             {
