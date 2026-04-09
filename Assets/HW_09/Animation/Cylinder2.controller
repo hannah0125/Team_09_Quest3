@@ -35,7 +35,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Button_Stop
-  m_Speed: 1
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -1839392804416539692}
@@ -63,7 +63,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: ButtonState
+    m_ConditionEvent: Button1State
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6402514061177290065}
@@ -107,10 +107,10 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cylinder
+  m_Name: Cylinder2
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: ButtonState
+  - m_Name: Button1State
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 1
@@ -118,7 +118,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Base Layer
+    m_Name: Button1State
     m_StateMachine: {fileID: 7068421227415862121}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -136,7 +136,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
+  m_Name: Button1State
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5106108370019864987}

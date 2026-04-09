@@ -8,8 +8,8 @@ public class HW_09_BallLauncher : MonoBehaviour
     public GameObject ballPrefab2;
     public Transform firePoint1;
     public Transform firePoint2;// 공이 나올 위치
-    public float launchSpeed1= 20f; // 공의 속도 (슬라이더로 조절 가능하게 설정)
-    public float launchSpeed2 = 5f; // 공의 속도 (슬라이더로 조절 가능하게 설정)
+    public float launchSpeed1= 50f; // 공의 속도 (슬라이더로 조절 가능하게 설정)
+    public float launchSpeed2 = 3f; // 공의 속도 (슬라이더로 조절 가능하게 설정)
 
 
     public void Fire()

@@ -9,7 +9,7 @@ public class AnimationTriggerBridge : MonoBehaviour
     public PhysicsCycleManager physicsManager;
 
     // 애니메이션 타임라인의 이벤트 마커에서 호출할 함수 이름입니다.
-    public void OnAnimationFinished()
+    public void OnAnimationFinished1()
     {
         if (physicsManager != null)
         {
