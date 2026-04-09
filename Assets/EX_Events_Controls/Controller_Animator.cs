@@ -11,4 +11,5 @@ public class Controller_Animator : MonoBehaviour
     {
         animator.SetInteger(Parameter, value);
     }
+
 }
