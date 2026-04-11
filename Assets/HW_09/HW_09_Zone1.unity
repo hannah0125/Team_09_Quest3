@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1402304460}
-  Parameter: ButtonState
+  Parameter: Button2State
 --- !u!114 &1402304457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,7 +1844,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 86b9460a9415e6746990f17338b0983a, type: 2}
+  - {fileID: 2100000, guid: 40da09499bf88454d9e39cf1eee1d1f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -304,14 +304,14 @@ MonoBehaviour:
   snapAngle: 45
   TeleportLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   resolution: 30
   teleportVelocity: 8
   timestep: 0.08
   grabRadius: 0.2
   GrabLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   rayDistance: 10
 --- !u!1 &6337442073228666884
 GameObject:
