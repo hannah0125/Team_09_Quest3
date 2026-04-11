@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HW_09/HW_09_Zone1.unity
-    guid: 8b9b54c8eb9b0d345b245deb238783f2
-  - enabled: 1
     path: Assets/HW_09/HW_09_Zone0.unity
     guid: bf4e2aa69894f0240a89f6c9531937d4
+  - enabled: 1
+    path: Assets/HW_09/HW_09_Zone1.unity
+    guid: 8b9b54c8eb9b0d345b245deb238783f2
   - enabled: 1
     path: Assets/HW_09/HW_09_Zone2.unity
     guid: 24dd176f102149843b2f1ae6ab2fbc2a
